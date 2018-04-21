@@ -45,7 +45,6 @@ function main() {
               <Route path="/support-request" exact component={SupportRequest}></Route>
               <Route path="/support-request/edit/:_id" component={EditSupportRequest}></Route>
               <Route path="/support-request/add" component={AddSupportRequest}></Route>
-
             </Switch>
         </Header>
       </Router>
